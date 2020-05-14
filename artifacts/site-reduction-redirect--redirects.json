@@ -1,0 +1,3414 @@
+{
+  "dbs-uat.tenproduct.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 327
+    },
+    {
+      "basePath": "/",
+      "siteId": 327
+    }
+  ],
+  "dbsprivateconcierge.tenconcierge.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 327
+    },
+    {
+      "basePath": "/",
+      "siteId": 327
+    }
+  ],
+  "westpac-uat.tenproduct.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 328
+    },
+    {
+      "basePath": "/",
+      "siteId": 328
+    }
+  ],
+  "stgeorge-uat.tenproduct.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 329
+    },
+    {
+      "basePath": "/",
+      "siteId": 329
+    }
+  ],
+  "tp-qa-absa.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 72
+    }
+  ],
+  "tp-qa-barclaycard.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 29
+    }
+  ],
+  "tp-qa-barclays.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 28
+    }
+  ],
+  "tp-qa-bcg.tenproduct.com": [
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 86
+    },
+    {
+      "basePath": "/jp/jp/",
+      "siteId": 87
+    },
+    {
+      "basePath": "/sg/zh-cn/",
+      "siteId": 88
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 54
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 65
+    }
+  ],
+  "tp-qa-carlauren.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 53
+    }
+  ],
+  "tp-qa-cnb.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 26
+    }
+  ],
+  "tp-qa-coutts-sso.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 43
+    }
+  ],
+  "tp-qa-coutts.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 4
+    }
+  ],
+  "tp-qa-dashboard.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 1
+    }
+  ],
+  "tp-qa-dnb.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 83
+    }
+  ],
+  "tp-qa-hsbc-jade.tenproduct.com": [
+    {
+      "basePath": "/ca/en-ca/",
+      "siteId": 89
+    },
+    {
+      "basePath": "/ca/fr-ca/",
+      "siteId": 90
+    },
+    {
+      "basePath": "/ca/zh-cn/",
+      "siteId": 91
+    },
+    {
+      "basePath": "/ca/zh-hk/",
+      "siteId": 92
+    },
+    {
+      "basePath": "/cn/en-gb/",
+      "siteId": 93
+    },
+    {
+      "basePath": "/cn/zh-cn/",
+      "siteId": 94
+    },
+    {
+      "basePath": "/fr/en-gb/",
+      "siteId": 95
+    },
+    {
+      "basePath": "/fr/fr/",
+      "siteId": 96
+    },
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 97
+    },
+    {
+      "basePath": "/hk/zh-cn/",
+      "siteId": 98
+    },
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 99
+    },
+    {
+      "basePath": "/je/en-gb/",
+      "siteId": 100
+    },
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 101
+    },
+    {
+      "basePath": "/uae/ar/",
+      "siteId": 102
+    },
+    {
+      "basePath": "/uae/en-gb/",
+      "siteId": 103
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 11
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 104
+    }
+  ],
+  "tp-qa-mastercard.tenproduct.com": [
+    {
+      "basePath": "/ar/es/black/",
+      "siteId": 105
+    },
+    {
+      "basePath": "/ar/es/platinum/",
+      "siteId": 106
+    },
+    {
+      "basePath": "/au/en-gb/platinum/",
+      "siteId": 107
+    },
+    {
+      "basePath": "/au/en-gb/platinum-life/",
+      "siteId": 108
+    },
+    {
+      "basePath": "/au/en-gb/world/",
+      "siteId": 109
+    },
+    {
+      "basePath": "/au/en-gb/world-life/",
+      "siteId": 110
+    },
+    {
+      "basePath": "/br/pt-br/black/",
+      "siteId": 111
+    },
+    {
+      "basePath": "/br/pt-br/platinum/",
+      "siteId": 112
+    },
+    {
+      "basePath": "/ca/en-ca/world/",
+      "siteId": 113
+    },
+    {
+      "basePath": "/ca/en-ca/world-elite/",
+      "siteId": 114
+    },
+    {
+      "basePath": "/ca/fr-ca/world/",
+      "siteId": 115
+    },
+    {
+      "basePath": "/ca/fr-ca/world-elite/",
+      "siteId": 116
+    },
+    {
+      "basePath": "/cl/es/black/",
+      "siteId": 117
+    },
+    {
+      "basePath": "/cl/es/platinum/",
+      "siteId": 118
+    },
+    {
+      "basePath": "/cn/zh-cn/platinum/",
+      "siteId": 119
+    },
+    {
+      "basePath": "/cn/zh-cn/platinum-life/",
+      "siteId": 120
+    },
+    {
+      "basePath": "/cn/zh-cn/world/",
+      "siteId": 121
+    },
+    {
+      "basePath": "/cn/zh-cn/world-elite/",
+      "siteId": 122
+    },
+    {
+      "basePath": "/cn/zh-cn/world-life/",
+      "siteId": 123
+    },
+    {
+      "basePath": "/co/es/black/",
+      "siteId": 124
+    },
+    {
+      "basePath": "/co/es/platinum/",
+      "siteId": 125
+    },
+    {
+      "basePath": "/cr/es/black/",
+      "siteId": 126
+    },
+    {
+      "basePath": "/cr/es/platinum/",
+      "siteId": 127
+    },
+    {
+      "basePath": "/dr/es/black/",
+      "siteId": 128
+    },
+    {
+      "basePath": "/dr/es/platinum/",
+      "siteId": 129
+    },
+    {
+      "basePath": "/ec/es/black/",
+      "siteId": 130
+    },
+    {
+      "basePath": "/ec/es/platinum/",
+      "siteId": 131
+    },
+    {
+      "basePath": "/eg/ar/world/",
+      "siteId": 132
+    },
+    {
+      "basePath": "/eg/ar/world-elite/",
+      "siteId": 133
+    },
+    {
+      "basePath": "/gt/es/black/",
+      "siteId": 134
+    },
+    {
+      "basePath": "/gt/es/platinum/",
+      "siteId": 135
+    },
+    {
+      "basePath": "/hk/en-gb/platinum/",
+      "siteId": 136
+    },
+    {
+      "basePath": "/hk/en-gb/platinum-life/",
+      "siteId": 137
+    },
+    {
+      "basePath": "/hk/en-gb/world/",
+      "siteId": 138
+    },
+    {
+      "basePath": "/hk/en-gb/world-elite/",
+      "siteId": 139
+    },
+    {
+      "basePath": "/hk/en-gb/world-life/",
+      "siteId": 140
+    },
+    {
+      "basePath": "/hk/zh-hk/platinum/",
+      "siteId": 141
+    },
+    {
+      "basePath": "/hk/zh-hk/platinum-life/",
+      "siteId": 142
+    },
+    {
+      "basePath": "/hk/zh-hk/world/",
+      "siteId": 143
+    },
+    {
+      "basePath": "/hk/zh-hk/world-elite/",
+      "siteId": 144
+    },
+    {
+      "basePath": "/hk/zh-hk/world-life/",
+      "siteId": 145
+    },
+    {
+      "basePath": "/hn/es/black/",
+      "siteId": 146
+    },
+    {
+      "basePath": "/hn/es/platinum/",
+      "siteId": 147
+    },
+    {
+      "basePath": "/id/en-gb/platinum/",
+      "siteId": 148
+    },
+    {
+      "basePath": "/id/en-gb/platinum-life/",
+      "siteId": 149
+    },
+    {
+      "basePath": "/id/en-gb/world/",
+      "siteId": 150
+    },
+    {
+      "basePath": "/id/en-gb/world-elite/",
+      "siteId": 151
+    },
+    {
+      "basePath": "/id/en-gb/world-life/",
+      "siteId": 152
+    },
+    {
+      "basePath": "/in/en-gb/platinum/",
+      "siteId": 153
+    },
+    {
+      "basePath": "/in/en-gb/platinum-life/",
+      "siteId": 154
+    },
+    {
+      "basePath": "/in/en-gb/world/",
+      "siteId": 155
+    },
+    {
+      "basePath": "/in/en-gb/world-elite/",
+      "siteId": 156
+    },
+    {
+      "basePath": "/in/en-gb/world-life/",
+      "siteId": 157
+    },
+    {
+      "basePath": "/jp/jp/gold/",
+      "siteId": 158
+    },
+    {
+      "basePath": "/jp/jp/gold-life/",
+      "siteId": 159
+    },
+    {
+      "basePath": "/jp/jp/platinum/",
+      "siteId": 160
+    },
+    {
+      "basePath": "/jp/jp/platinum-life/",
+      "siteId": 161
+    },
+    {
+      "basePath": "/jp/jp/world/",
+      "siteId": 162
+    },
+    {
+      "basePath": "/jp/jp/world-elite/",
+      "siteId": 163
+    },
+    {
+      "basePath": "/jp/jp/world-life/",
+      "siteId": 164
+    },
+    {
+      "basePath": "/kr/ko/platinum/",
+      "siteId": 165
+    },
+    {
+      "basePath": "/kr/ko/platinum-life/",
+      "siteId": 166
+    },
+    {
+      "basePath": "/kr/ko/world/",
+      "siteId": 167
+    },
+    {
+      "basePath": "/kr/ko/world-life/",
+      "siteId": 168
+    },
+    {
+      "basePath": "/kw/ar/world/",
+      "siteId": 169
+    },
+    {
+      "basePath": "/kw/ar/world-elite/",
+      "siteId": 170
+    },
+    {
+      "basePath": "/kw/en-gb/world/",
+      "siteId": 171
+    },
+    {
+      "basePath": "/kw/en-gb/world-elite/",
+      "siteId": 172
+    },
+    {
+      "basePath": "/mx/es/platinum/",
+      "siteId": 173
+    },
+    {
+      "basePath": "/mx/es/world-elite/",
+      "siteId": 174
+    },
+    {
+      "basePath": "/my/en-gb/platinum/",
+      "siteId": 175
+    },
+    {
+      "basePath": "/my/en-gb/platinum-life/",
+      "siteId": 176
+    },
+    {
+      "basePath": "/my/en-gb/world/",
+      "siteId": 177
+    },
+    {
+      "basePath": "/my/en-gb/world-elite/",
+      "siteId": 178
+    },
+    {
+      "basePath": "/my/en-gb/world-life/",
+      "siteId": 179
+    },
+    {
+      "basePath": "/ni/es/black/",
+      "siteId": 180
+    },
+    {
+      "basePath": "/ni/es/platinum/",
+      "siteId": 181
+    },
+    {
+      "basePath": "/nz/en-gb/platinum/",
+      "siteId": 182
+    },
+    {
+      "basePath": "/nz/en-gb/platinum-life/",
+      "siteId": 183
+    },
+    {
+      "basePath": "/nz/en-gb/world/",
+      "siteId": 184
+    },
+    {
+      "basePath": "/nz/en-gb/world-life/",
+      "siteId": 185
+    },
+    {
+      "basePath": "/pa/es/black/",
+      "siteId": 186
+    },
+    {
+      "basePath": "/pa/es/platinum/",
+      "siteId": 187
+    },
+    {
+      "basePath": "/pe/es/black/",
+      "siteId": 188
+    },
+    {
+      "basePath": "/pe/es/platinum/",
+      "siteId": 189
+    },
+    {
+      "basePath": "/ph/en-gb/platinum/",
+      "siteId": 190
+    },
+    {
+      "basePath": "/ph/en-gb/platinum-life/",
+      "siteId": 191
+    },
+    {
+      "basePath": "/ph/en-gb/world/",
+      "siteId": 192
+    },
+    {
+      "basePath": "/ph/en-gb/world-elite/",
+      "siteId": 193
+    },
+    {
+      "basePath": "/ph/en-gb/world-life/",
+      "siteId": 194
+    },
+    {
+      "basePath": "/pri/en-us/world/",
+      "siteId": 195
+    },
+    {
+      "basePath": "/pri/en-us/world-elite/",
+      "siteId": 196
+    },
+    {
+      "basePath": "/qa/ar/world/",
+      "siteId": 197
+    },
+    {
+      "basePath": "/qa/ar/world-elite/",
+      "siteId": 198
+    },
+    {
+      "basePath": "/qa/en-gb/world/",
+      "siteId": 199
+    },
+    {
+      "basePath": "/qa/en-gb/world-elite/",
+      "siteId": 200
+    },
+    {
+      "basePath": "/sa/ar/world/",
+      "siteId": 201
+    },
+    {
+      "basePath": "/sa/ar/world-elite/",
+      "siteId": 202
+    },
+    {
+      "basePath": "/sa/en-gb/world/",
+      "siteId": 203
+    },
+    {
+      "basePath": "/sa/en-gb/world-elite/",
+      "siteId": 204
+    },
+    {
+      "basePath": "/sg/en-gb/platinum/",
+      "siteId": 205
+    },
+    {
+      "basePath": "/sg/en-gb/platinum-life/",
+      "siteId": 206
+    },
+    {
+      "basePath": "/sg/en-gb/world/",
+      "siteId": 207
+    },
+    {
+      "basePath": "/sg/en-gb/world-elite/",
+      "siteId": 208
+    },
+    {
+      "basePath": "/sg/en-gb/world-life/",
+      "siteId": 209
+    },
+    {
+      "basePath": "/sg/zh-cn/platinum/",
+      "siteId": 210
+    },
+    {
+      "basePath": "/sg/zh-cn/platinum-life/",
+      "siteId": 211
+    },
+    {
+      "basePath": "/sg/zh-cn/world/",
+      "siteId": 212
+    },
+    {
+      "basePath": "/sg/zh-cn/world-elite/",
+      "siteId": 213
+    },
+    {
+      "basePath": "/sg/zh-cn/world-life/",
+      "siteId": 214
+    },
+    {
+      "basePath": "/sv/es/black/",
+      "siteId": 215
+    },
+    {
+      "basePath": "/sv/es/platinum/",
+      "siteId": 216
+    },
+    {
+      "basePath": "/th/en-gb/platinum/",
+      "siteId": 217
+    },
+    {
+      "basePath": "/th/en-gb/platinum-life/",
+      "siteId": 218
+    },
+    {
+      "basePath": "/th/en-gb/world/",
+      "siteId": 219
+    },
+    {
+      "basePath": "/th/en-gb/world-elite/",
+      "siteId": 220
+    },
+    {
+      "basePath": "/th/en-gb/world-life/",
+      "siteId": 221
+    },
+    {
+      "basePath": "/tw/zh-hk/platinum/",
+      "siteId": 222
+    },
+    {
+      "basePath": "/tw/zh-hk/platinum-life/",
+      "siteId": 223
+    },
+    {
+      "basePath": "/tw/zh-hk/world/",
+      "siteId": 224
+    },
+    {
+      "basePath": "/tw/zh-hk/world-elite/",
+      "siteId": 225
+    },
+    {
+      "basePath": "/tw/zh-hk/world-life/",
+      "siteId": 226
+    },
+    {
+      "basePath": "/uae/ar/world/",
+      "siteId": 227
+    },
+    {
+      "basePath": "/uae/ar/world-elite/",
+      "siteId": 228
+    },
+    {
+      "basePath": "/uae/ar/world-life/",
+      "siteId": 229
+    },
+    {
+      "basePath": "/uae/en-gb/world/",
+      "siteId": 230
+    },
+    {
+      "basePath": "/uae/en-gb/world-elite/",
+      "siteId": 231
+    },
+    {
+      "basePath": "/uae/en-gb/world-life/",
+      "siteId": 232
+    },
+    {
+      "basePath": "/uk/en-gb/world/",
+      "siteId": 233
+    },
+    {
+      "basePath": "/uk/en-gb/world-elite/",
+      "siteId": 52
+    },
+    {
+      "basePath": "/us/en-us/world/",
+      "siteId": 234
+    },
+    {
+      "basePath": "/us/en-us/world-elite/",
+      "siteId": 44
+    },
+    {
+      "basePath": "/vn/en-gb/platinum/",
+      "siteId": 235
+    },
+    {
+      "basePath": "/vn/en-gb/platinum-life/",
+      "siteId": 236
+    },
+    {
+      "basePath": "/vn/en-gb/world/",
+      "siteId": 237
+    },
+    {
+      "basePath": "/vn/en-gb/world-elite/",
+      "siteId": 238
+    },
+    {
+      "basePath": "/vn/en-gb/world-life/",
+      "siteId": 239
+    },
+    {
+      "basePath": "/za/en-gb/world/",
+      "siteId": 240
+    },
+    {
+      "basePath": "/za/en-gb/world-elite/",
+      "siteId": 241
+    }
+  ],
+  "tp-qa-ocbc.tenproduct.com": [
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 242
+    },
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 243
+    },
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 46
+    }
+  ],
+  "tp-qa-rbc-enterprise.tenproduct.com": [
+    {
+      "basePath": "/ca/en-ca/",
+      "siteId": 51
+    },
+    {
+      "basePath": "/ca/fr-ca/",
+      "siteId": 244
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 245
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 246
+    }
+  ],
+  "tp-qa-rbc-infiniteprivate.tenproduct.com": [
+    {
+      "basePath": "/ca/en-ca/",
+      "siteId": 247
+    },
+    {
+      "basePath": "/ca/fr-ca/",
+      "siteId": 248
+    }
+  ],
+  "tp-qa-scotia-evasion.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 25
+    }
+  ],
+  "tp-qa-scotia-pursuits.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 24
+    }
+  ],
+  "tp-qa-tenemployee.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 249
+    }
+  ],
+  "tp-qa-ten.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 2
+    },
+    {
+      "basePath": "/ar-ae/",
+      "siteId": 35
+    },
+    {
+      "basePath": "/de/",
+      "siteId": 42
+    },
+    {
+      "basePath": "/en-ca/",
+      "siteId": 31
+    },
+    {
+      "basePath": "/en-gb/",
+      "siteId": 27
+    },
+    {
+      "basePath": "/en-us/",
+      "siteId": 30
+    },
+    {
+      "basePath": "/es-co/",
+      "siteId": 32
+    },
+    {
+      "basePath": "/es-es/",
+      "siteId": 48
+    },
+    {
+      "basePath": "/fr/",
+      "siteId": 40
+    },
+    {
+      "basePath": "/fr-ca/",
+      "siteId": 33
+    },
+    {
+      "basePath": "/fr-fr/",
+      "siteId": 250
+    },
+    {
+      "basePath": "/ja/",
+      "siteId": 38
+    },
+    {
+      "basePath": "/ko/",
+      "siteId": 39
+    },
+    {
+      "basePath": "/pt-br/",
+      "siteId": 34
+    },
+    {
+      "basePath": "/ru/",
+      "siteId": 41
+    },
+    {
+      "basePath": "/zh-cn/",
+      "siteId": 36
+    },
+    {
+      "basePath": "/zh-hk/",
+      "siteId": 37
+    }
+  ],
+  "tp-qa-transamerica.tenproduct.com": [
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 45
+    },
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 251
+    }
+  ],
+  "tp-qa-visa-cemea.tenproduct.com": [
+    {
+      "basePath": "/ke/en-gb/infinite/",
+      "siteId": 252
+    },
+    {
+      "basePath": "/ke/en-gb/signature/",
+      "siteId": 253
+    },
+    {
+      "basePath": "/regcemea/en-us/infinite/",
+      "siteId": 254
+    },
+    {
+      "basePath": "/regcemea/en-us/signature/",
+      "siteId": 255
+    },
+    {
+      "basePath": "/regmena/ar/infinite-signature/",
+      "siteId": 256
+    },
+    {
+      "basePath": "/regmena/ar/infinite-signature-sharia/",
+      "siteId": 257
+    },
+    {
+      "basePath": "/regmena/en-us/infinite-signature/",
+      "siteId": 258
+    },
+    {
+      "basePath": "/regmena/en-us/infinite-signature-sharia/",
+      "siteId": 259
+    },
+    {
+      "basePath": "/regmena/fr/infinite-signature/",
+      "siteId": 260
+    },
+    {
+      "basePath": "/reg/ru/infinite/",
+      "siteId": 261
+    },
+    {
+      "basePath": "/reg/ru/signature/",
+      "siteId": 262
+    },
+    {
+      "basePath": "/roa/en-gb/infinite/",
+      "siteId": 263
+    },
+    {
+      "basePath": "/roa/en-gb/signature/",
+      "siteId": 264
+    },
+    {
+      "basePath": "/roa/fr/infinite/",
+      "siteId": 265
+    },
+    {
+      "basePath": "/roa/fr/signature/",
+      "siteId": 266
+    },
+    {
+      "basePath": "/ru/en-us/infinite/",
+      "siteId": 267
+    },
+    {
+      "basePath": "/ru/en-us/signature/",
+      "siteId": 268
+    },
+    {
+      "basePath": "/ru/ru/infinite/",
+      "siteId": 269
+    },
+    {
+      "basePath": "/ru/ru/signature/",
+      "siteId": 270
+    },
+    {
+      "basePath": "/sa/ar/infinite-signature/",
+      "siteId": 271
+    },
+    {
+      "basePath": "/sa/ar/infinite-signature-sharia/",
+      "siteId": 272
+    },
+    {
+      "basePath": "/sa/en-us/infinite-signature/",
+      "siteId": 273
+    },
+    {
+      "basePath": "/sa/en-us/infinite-signature-sharia/",
+      "siteId": 274
+    },
+    {
+      "basePath": "/uae/ar/infinite-signature/",
+      "siteId": 275
+    },
+    {
+      "basePath": "/uae/en-us/infinite-signature/",
+      "siteId": 276
+    },
+    {
+      "basePath": "/za/en-gb/infinite/",
+      "siteId": 277
+    },
+    {
+      "basePath": "/za/en-gb/signature/",
+      "siteId": 278
+    }
+  ],
+  "tp-qa-visa-lac.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 10
+    },
+    {
+      "basePath": "/ar/es/corporatesignature/",
+      "siteId": 279
+    },
+    {
+      "basePath": "/ar/es/platinum/",
+      "siteId": 280
+    },
+    {
+      "basePath": "/ar/es/signature/",
+      "siteId": 281
+    },
+    {
+      "basePath": "/br/pt-br/infinite/",
+      "siteId": 282
+    },
+    {
+      "basePath": "/br/pt-br/infinitecorporate/",
+      "siteId": 283
+    },
+    {
+      "basePath": "/br/pt-br/platinum/",
+      "siteId": 284
+    },
+    {
+      "basePath": "/br/pt-br/platinumbusiness/",
+      "siteId": 285
+    },
+    {
+      "basePath": "/cl/es/infinite/",
+      "siteId": 286
+    },
+    {
+      "basePath": "/cl/es/platinum/",
+      "siteId": 287
+    },
+    {
+      "basePath": "/cl/es/signature/",
+      "siteId": 288
+    },
+    {
+      "basePath": "/cl/es/signaturebusiness/",
+      "siteId": 289
+    },
+    {
+      "basePath": "/co/es/infinite/",
+      "siteId": 290
+    },
+    {
+      "basePath": "/co/es/platinum/",
+      "siteId": 291
+    },
+    {
+      "basePath": "/co/es/signature/",
+      "siteId": 292
+    },
+    {
+      "basePath": "/mx/es/infinite/",
+      "siteId": 293
+    },
+    {
+      "basePath": "/mx/es/infinitebusiness/",
+      "siteId": 294
+    },
+    {
+      "basePath": "/mx/es/infinitecorporate/",
+      "siteId": 295
+    },
+    {
+      "basePath": "/mx/es/platinum/",
+      "siteId": 296
+    },
+    {
+      "basePath": "/mx/es/platinumbusiness/",
+      "siteId": 297
+    },
+    {
+      "basePath": "/pe/es/infinite/",
+      "siteId": 298
+    },
+    {
+      "basePath": "/pe/es/platinum/",
+      "siteId": 299
+    },
+    {
+      "basePath": "/pe/es/signature/",
+      "siteId": 300
+    },
+    {
+      "basePath": "/reg/en-us/infinite/",
+      "siteId": 301
+    },
+    {
+      "basePath": "/reg/en-us/infinitebusiness/",
+      "siteId": 302
+    },
+    {
+      "basePath": "/reg/en-us/platinum/",
+      "siteId": 303
+    },
+    {
+      "basePath": "/reg/en-us/platinumbusiness/",
+      "siteId": 304
+    },
+    {
+      "basePath": "/reg/en-us/signature/",
+      "siteId": 305
+    },
+    {
+      "basePath": "/reg/en-us/signaturebusiness/",
+      "siteId": 306
+    },
+    {
+      "basePath": "/reg/es/infinite/",
+      "siteId": 307
+    },
+    {
+      "basePath": "/reg/es/infinitebusiness/",
+      "siteId": 308
+    },
+    {
+      "basePath": "/reg/es/platinum/",
+      "siteId": 309
+    },
+    {
+      "basePath": "/reg/es/platinumbusiness/",
+      "siteId": 310
+    },
+    {
+      "basePath": "/reg/es/signature/",
+      "siteId": 311
+    },
+    {
+      "basePath": "/reg/es/signaturebusiness/",
+      "siteId": 312
+    }
+  ],
+  "tp-staging-visa-lac.tenproduct.com": [
+    {
+      "basePath": "/co/es/infinite/",
+      "siteId": 139
+    },
+    {
+      "basePath": "/br/pt-br/infinitecorporate/",
+      "siteId": 129
+    },
+    {
+      "basePath": "/br/pt-br/platinumbusiness/",
+      "siteId": 128
+    },
+    {
+      "basePath": "/reg/en-us/infinitebusiness/",
+      "siteId": 120
+    },
+    {
+      "basePath": "/reg/en-us/platinum/",
+      "siteId": 115
+    },
+    {
+      "basePath": "/reg/en-us/platinumbusiness/",
+      "siteId": 118
+    },
+    {
+      "basePath": "/ar/es/platinum/",
+      "siteId": 141
+    },
+    {
+      "basePath": "/ar/es/corporatesignature/",
+      "siteId": 143
+    },
+    {
+      "basePath": "/br/pt-br/platinum/",
+      "siteId": 127
+    },
+    {
+      "basePath": "/mx/es/platinumbusiness/",
+      "siteId": 132
+    },
+    {
+      "basePath": "/reg/es/signaturebusiness/",
+      "siteId": 124
+    },
+    {
+      "basePath": "/reg/es/signature/",
+      "siteId": 121
+    },
+    {
+      "basePath": "/reg/en-us/signaturebusiness/",
+      "siteId": 119
+    },
+    {
+      "basePath": "/mx/es/infinitebusiness/",
+      "siteId": 133
+    },
+    {
+      "basePath": "/pe/es/signature/",
+      "siteId": 145
+    },
+    {
+      "basePath": "/pe/es/platinum/",
+      "siteId": 144
+    },
+    {
+      "basePath": "/co/es/platinum/",
+      "siteId": 140
+    },
+    {
+      "basePath": "/co/es/signature/",
+      "siteId": 138
+    },
+    {
+      "basePath": "/reg/es/infinitebusiness/",
+      "siteId": 125
+    },
+    {
+      "basePath": "/reg/es/infinite/",
+      "siteId": 116
+    },
+    {
+      "basePath": "/pe/es/infinite/",
+      "siteId": 146
+    },
+    {
+      "basePath": "/mx/es/platinum/",
+      "siteId": 131
+    },
+    {
+      "basePath": "/reg/es/platinum/",
+      "siteId": 122
+    },
+    {
+      "basePath": "/cl/es/platinum/",
+      "siteId": 147
+    },
+    {
+      "basePath": "/reg/en-us/infinite/",
+      "siteId": 117
+    },
+    {
+      "basePath": "/reg/en-us/signature/",
+      "siteId": 114
+    },
+    {
+      "basePath": "/mx/es/infinite/",
+      "siteId": 130
+    },
+    {
+      "basePath": "/",
+      "siteId": 110
+    },
+    {
+      "basePath": "/ar/es/signature/",
+      "siteId": 142
+    },
+    {
+      "basePath": "/cl/es/signature/",
+      "siteId": 148
+    },
+    {
+      "basePath": "/cl/es/signaturebusiness/",
+      "siteId": 150
+    },
+    {
+      "basePath": "/cl/es/infinite/",
+      "siteId": 149
+    },
+    {
+      "basePath": "/mx/es/infinitecorporate/",
+      "siteId": 137
+    },
+    {
+      "basePath": "/reg/es/platinumbusiness/",
+      "siteId": 123
+    },
+    {
+      "basePath": "/br/pt-br/infinite/",
+      "siteId": 126
+    }
+  ],
+  "tp-staging-visa-cemea.tenproduct.com": [
+    {
+      "basePath": "/regcemea/en-us/infinite/",
+      "siteId": 221
+    },
+    {
+      "basePath": "/reg/ru/infinite/",
+      "siteId": 219
+    },
+    {
+      "basePath": "/sa/ar/infinite-signature-sharia/",
+      "siteId": 228
+    },
+    {
+      "basePath": "/regmena/en-us/infinite-signature/",
+      "siteId": 235
+    },
+    {
+      "basePath": "/sa/en-us/infinite-signature-sharia/",
+      "siteId": 227
+    },
+    {
+      "basePath": "/sa/en-us/infinite-signature/",
+      "siteId": 231
+    },
+    {
+      "basePath": "/za/en-gb/signature/",
+      "siteId": 224
+    },
+    {
+      "basePath": "/ru/en-us/signature/",
+      "siteId": 217
+    },
+    {
+      "basePath": "/uae/ar/infinite-signature/",
+      "siteId": 230
+    },
+    {
+      "basePath": "/roa/fr/infinite/",
+      "siteId": 241
+    },
+    {
+      "basePath": "/roa/en-gb/infinite/",
+      "siteId": 238
+    },
+    {
+      "basePath": "/regmena/ar/infinite-signature/",
+      "siteId": 236
+    },
+    {
+      "basePath": "/sa/ar/infinite-signature/",
+      "siteId": 232
+    },
+    {
+      "basePath": "/ke/en-gb/infinite/",
+      "siteId": 225
+    },
+    {
+      "basePath": "/roa/fr/signature/",
+      "siteId": 240
+    },
+    {
+      "basePath": "/uae/en-us/infinite-signature/",
+      "siteId": 229
+    },
+    {
+      "basePath": "/roa/en-gb/signature/",
+      "siteId": 239
+    },
+    {
+      "basePath": "/regmena/fr/infinite-signature/",
+      "siteId": 237
+    },
+    {
+      "basePath": "/za/en-gb/infinite/",
+      "siteId": 223
+    },
+    {
+      "basePath": "/regcemea/en-us/signature/",
+      "siteId": 222
+    },
+    {
+      "basePath": "/reg/ru/signature/",
+      "siteId": 220
+    },
+    {
+      "basePath": "/ru/en-us/infinite/",
+      "siteId": 218
+    },
+    {
+      "basePath": "/ru/ru/infinite/",
+      "siteId": 215
+    },
+    {
+      "basePath": "/ke/en-gb/signature/",
+      "siteId": 226
+    },
+    {
+      "basePath": "/regmena/en-us/infinite-signature-sharia/",
+      "siteId": 233
+    },
+    {
+      "basePath": "/ru/ru/signature/",
+      "siteId": 216
+    },
+    {
+      "basePath": "/regmena/ar/infinite-signature-sharia/",
+      "siteId": 234
+    }
+  ],
+  "tp-staging-hsbc-jade.tenproduct.com": [
+    {
+      "basePath": "/ca/fr-ca/",
+      "siteId": 162
+    },
+    {
+      "basePath": "/ca/en-ca/",
+      "siteId": 161
+    },
+    {
+      "basePath": "/fr/en-gb/",
+      "siteId": 156
+    },
+    {
+      "basePath": "/je/en-gb/",
+      "siteId": 168
+    },
+    {
+      "basePath": "/fr/fr/",
+      "siteId": 157
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 158
+    },
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 155
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 111
+    },
+    {
+      "basePath": "/cn/en-gb/",
+      "siteId": 167
+    },
+    {
+      "basePath": "/cn/zh-cn/",
+      "siteId": 165
+    },
+    {
+      "basePath": "/ca/zh-cn/",
+      "siteId": 164
+    },
+    {
+      "basePath": "/ca/zh-hk/",
+      "siteId": 163
+    },
+    {
+      "basePath": "/uae/en-gb/",
+      "siteId": 275
+    },
+    {
+      "basePath": "/uae/ar/",
+      "siteId": 276
+    },
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 151
+    },
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 152
+    },
+    {
+      "basePath": "/hk/zh-cn/",
+      "siteId": 153
+    }
+  ],
+  "tp-staging-coutts.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 112
+    }
+  ],
+  "tp-staging-ten.tenproduct.com": [
+    {
+      "basePath": "/en-us/",
+      "siteId": 266
+    },
+    {
+      "basePath": "/zh-hk/",
+      "siteId": 251
+    },
+    {
+      "basePath": "/ar-ae/",
+      "siteId": 254
+    },
+    {
+      "basePath": "/zh-cn/",
+      "siteId": 250
+    },
+    {
+      "basePath": "/pt-br/",
+      "siteId": 262
+    },
+    {
+      "basePath": "/ko/",
+      "siteId": 259
+    },
+    {
+      "basePath": "/fr-ca/",
+      "siteId": 264
+    },
+    {
+      "basePath": "/de/",
+      "siteId": 255
+    },
+    {
+      "basePath": "/es-co/",
+      "siteId": 253
+    },
+    {
+      "basePath": "/en-gb/",
+      "siteId": 265
+    },
+    {
+      "basePath": "/fr-fr/",
+      "siteId": 261
+    },
+    {
+      "basePath": "/ru/",
+      "siteId": 263
+    },
+    {
+      "basePath": "/",
+      "siteId": 2
+    },
+    {
+      "basePath": "/en-ca/",
+      "siteId": 267
+    },
+    {
+      "basePath": "/ja/",
+      "siteId": 252
+    }
+  ],
+  "tp-staging-hsbc-jade-travel-uat.tenproduct.com": [
+    {
+      "basePath": "/fr/fr/",
+      "siteId": 243
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 242
+    },
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 245
+    },
+    {
+      "basePath": "/hk/zh-cn/",
+      "siteId": 244
+    }
+  ],
+  "tp-staging-dashboard.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 1
+    }
+  ],
+  "tp-staging-barclays.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 256
+    }
+  ],
+  "tp-staging-ocbc.tenproduct.com": [
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 273
+    },
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 249
+    },
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 274
+    }
+  ],
+  "tp-staging-transamerica.tenproduct.com": [
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 248
+    },
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 247
+    }
+  ],
+  "tp-staging-mastercard.tenproduct.com": [
+    {
+      "basePath": "/gt/es/black/",
+      "siteId": 37
+    },
+    {
+      "basePath": "/kr/ko/platinum/",
+      "siteId": 92
+    },
+    {
+      "basePath": "/uae/ar/world-life/",
+      "siteId": 208
+    },
+    {
+      "basePath": "/eg/ar/world/",
+      "siteId": 33
+    },
+    {
+      "basePath": "/tw/zh-hk/world-life/",
+      "siteId": 205
+    },
+    {
+      "basePath": "/hk/zh-hk/world/",
+      "siteId": 43
+    },
+    {
+      "basePath": "/hk/zh-hk/world-elite/",
+      "siteId": 40
+    },
+    {
+      "basePath": "/jp/jp/world-elite/",
+      "siteId": 51
+    },
+    {
+      "basePath": "/hn/es/black/",
+      "siteId": 39
+    },
+    {
+      "basePath": "/us/en-us/world/",
+      "siteId": 4
+    },
+    {
+      "basePath": "/ca/fr-ca/world-elite/",
+      "siteId": 18
+    },
+    {
+      "basePath": "/ca/fr-ca/world/",
+      "siteId": 17
+    },
+    {
+      "basePath": "/cr/es/platinum/",
+      "siteId": 26
+    },
+    {
+      "basePath": "/co/es/black/",
+      "siteId": 25
+    },
+    {
+      "basePath": "/cl/es/black/",
+      "siteId": 20
+    },
+    {
+      "basePath": "/ar/es/platinum/",
+      "siteId": 10
+    },
+    {
+      "basePath": "/ca/en-ca/world-elite/",
+      "siteId": 16
+    },
+    {
+      "basePath": "/za/en-gb/world/",
+      "siteId": 90
+    },
+    {
+      "basePath": "/kr/ko/world/",
+      "siteId": 91
+    },
+    {
+      "basePath": "/ca/en-ca/world/",
+      "siteId": 15
+    },
+    {
+      "basePath": "/hk/zh-hk/world-life/",
+      "siteId": 179
+    },
+    {
+      "basePath": "/ni/es/black/",
+      "siteId": 67
+    },
+    {
+      "basePath": "/ni/es/platinum/",
+      "siteId": 66
+    },
+    {
+      "basePath": "/ec/es/black/",
+      "siteId": 31
+    },
+    {
+      "basePath": "/ec/es/platinum/",
+      "siteId": 30
+    },
+    {
+      "basePath": "/dr/es/platinum/",
+      "siteId": 28
+    },
+    {
+      "basePath": "/cr/es/black/",
+      "siteId": 27
+    },
+    {
+      "basePath": "/sg/en-gb/world-elite/",
+      "siteId": 83
+    },
+    {
+      "basePath": "/nz/en-gb/world/",
+      "siteId": 65
+    },
+    {
+      "basePath": "/in/en-gb/platinum/",
+      "siteId": 46
+    },
+    {
+      "basePath": "/au/en-gb/world/",
+      "siteId": 12
+    },
+    {
+      "basePath": "/uae/ar/world-elite/",
+      "siteId": 99
+    },
+    {
+      "basePath": "/uk/en-gb/world/",
+      "siteId": 104
+    },
+    {
+      "basePath": "/uk/en-gb/world-elite/",
+      "siteId": 103
+    },
+    {
+      "basePath": "/hk/zh-hk/platinum-life/",
+      "siteId": 178
+    },
+    {
+      "basePath": "/tw/zh-hk/platinum/",
+      "siteId": 95
+    },
+    {
+      "basePath": "/tw/zh-hk/world/",
+      "siteId": 94
+    },
+    {
+      "basePath": "/hk/zh-hk/platinum/",
+      "siteId": 42
+    },
+    {
+      "basePath": "/cn/zh-cn/platinum-life/",
+      "siteId": 177
+    },
+    {
+      "basePath": "/sg/zh-cn/platinum/",
+      "siteId": 87
+    },
+    {
+      "basePath": "/jp/jp/gold-life/",
+      "siteId": 188
+    },
+    {
+      "basePath": "/jp/jp/world/",
+      "siteId": 54
+    },
+    {
+      "basePath": "/jp/jp/platinum/",
+      "siteId": 53
+    },
+    {
+      "basePath": "/jp/jp/gold/",
+      "siteId": 52
+    },
+    {
+      "basePath": "/pe/es/black/",
+      "siteId": 71
+    },
+    {
+      "basePath": "/hk/en-gb/platinum-life/",
+      "siteId": 181
+    },
+    {
+      "basePath": "/th/en-gb/world-elite/",
+      "siteId": 96
+    },
+    {
+      "basePath": "/ph/en-gb/platinum/",
+      "siteId": 73
+    },
+    {
+      "basePath": "/kw/en-gb/world/",
+      "siteId": 58
+    },
+    {
+      "basePath": "/kw/en-gb/world-elite/",
+      "siteId": 56
+    },
+    {
+      "basePath": "/au/en-gb/platinum/",
+      "siteId": 11
+    },
+    {
+      "basePath": "/sa/en-gb/world/",
+      "siteId": 81
+    },
+    {
+      "basePath": "/qa/en-gb/world/",
+      "siteId": 77
+    },
+    {
+      "basePath": "/qa/en-gb/world-elite/",
+      "siteId": 76
+    },
+    {
+      "basePath": "/sa/ar/world/",
+      "siteId": 82
+    },
+    {
+      "basePath": "/uae/en-gb/world-elite/",
+      "siteId": 101
+    },
+    {
+      "basePath": "/qa/ar/world/",
+      "siteId": 78
+    },
+    {
+      "basePath": "/sg/zh-cn/platinum-life/",
+      "siteId": 200
+    },
+    {
+      "basePath": "/cn/zh-cn/world-life/",
+      "siteId": 176
+    },
+    {
+      "basePath": "/sg/zh-cn/world/",
+      "siteId": 88
+    },
+    {
+      "basePath": "/hn/es/platinum/",
+      "siteId": 38
+    },
+    {
+      "basePath": "/gt/es/platinum/",
+      "siteId": 36
+    },
+    {
+      "basePath": "/dr/es/black/",
+      "siteId": 29
+    },
+    {
+      "basePath": "/co/es/platinum/",
+      "siteId": 24
+    },
+    {
+      "basePath": "/cl/es/platinum/",
+      "siteId": 19
+    },
+    {
+      "basePath": "/sg/en-gb/platinum-life/",
+      "siteId": 198
+    },
+    {
+      "basePath": "/nz/en-gb/platinum-life/",
+      "siteId": 194
+    },
+    {
+      "basePath": "/in/en-gb/world-life/",
+      "siteId": 183
+    },
+    {
+      "basePath": "/in/en-gb/platinum-life/",
+      "siteId": 182
+    },
+    {
+      "basePath": "/hk/en-gb/world-life/",
+      "siteId": 180
+    },
+    {
+      "basePath": "/hk/en-gb/world/",
+      "siteId": 171
+    },
+    {
+      "basePath": "/uae/en-gb/world-life/",
+      "siteId": 207
+    },
+    {
+      "basePath": "/kr/ko/platinum-life/",
+      "siteId": 189
+    },
+    {
+      "basePath": "/jp/jp/world-life/",
+      "siteId": 186
+    },
+    {
+      "basePath": "/pe/es/platinum/",
+      "siteId": 70
+    },
+    {
+      "basePath": "/pa/es/black/",
+      "siteId": 69
+    },
+    {
+      "basePath": "/pa/es/platinum/",
+      "siteId": 68
+    },
+    {
+      "basePath": "/mx/es/platinum/",
+      "siteId": 62
+    },
+    {
+      "basePath": "/vn/en-gb/world-life/",
+      "siteId": 204
+    },
+    {
+      "basePath": "/vn/en-gb/platinum-life/",
+      "siteId": 203
+    },
+    {
+      "basePath": "/th/en-gb/world-life/",
+      "siteId": 201
+    },
+    {
+      "basePath": "/ph/en-gb/platinum-life/",
+      "siteId": 196
+    },
+    {
+      "basePath": "/nz/en-gb/world-life/",
+      "siteId": 193
+    },
+    {
+      "basePath": "/my/en-gb/world-life/",
+      "siteId": 192
+    },
+    {
+      "basePath": "/in/en-gb/world-elite/",
+      "siteId": 170
+    },
+    {
+      "basePath": "/sg/en-gb/world/",
+      "siteId": 86
+    },
+    {
+      "basePath": "/ph/en-gb/world-elite/",
+      "siteId": 72
+    },
+    {
+      "basePath": "/my/en-gb/world/",
+      "siteId": 60
+    },
+    {
+      "basePath": "/id/en-gb/world/",
+      "siteId": 50
+    },
+    {
+      "basePath": "/in/en-gb/world/",
+      "siteId": 47
+    },
+    {
+      "basePath": "/hk/en-gb/platinum/",
+      "siteId": 44
+    },
+    {
+      "basePath": "/sa/ar/world-elite/",
+      "siteId": 79
+    },
+    {
+      "basePath": "/kw/ar/world/",
+      "siteId": 57
+    },
+    {
+      "basePath": "/kw/ar/world-elite/",
+      "siteId": 55
+    },
+    {
+      "basePath": "/za/en-gb/world-elite/",
+      "siteId": 89
+    },
+    {
+      "basePath": "/ar/es/black/",
+      "siteId": 9
+    },
+    {
+      "basePath": "/th/en-gb/platinum-life/",
+      "siteId": 202
+    },
+    {
+      "basePath": "/tw/zh-hk/world-elite/",
+      "siteId": 93
+    },
+    {
+      "basePath": "/sg/zh-cn/world-life/",
+      "siteId": 199
+    },
+    {
+      "basePath": "/sg/zh-cn/world-elite/",
+      "siteId": 84
+    },
+    {
+      "basePath": "/cn/zh-cn/platinum/",
+      "siteId": 22
+    },
+    {
+      "basePath": "/cn/zh-cn/world-elite/",
+      "siteId": 21
+    },
+    {
+      "basePath": "/br/pt-br/black/",
+      "siteId": 14
+    },
+    {
+      "basePath": "/sg/en-gb/world-life/",
+      "siteId": 197
+    },
+    {
+      "basePath": "/id/en-gb/world-life/",
+      "siteId": 185
+    },
+    {
+      "basePath": "/id/en-gb/platinum-life/",
+      "siteId": 184
+    },
+    {
+      "basePath": "/au/en-gb/platinum-life/",
+      "siteId": 174
+    },
+    {
+      "basePath": "/vn/en-gb/platinum/",
+      "siteId": 109
+    },
+    {
+      "basePath": "/th/en-gb/platinum/",
+      "siteId": 97
+    },
+    {
+      "basePath": "/my/en-gb/platinum/",
+      "siteId": 61
+    },
+    {
+      "basePath": "/my/en-gb/world-elite/",
+      "siteId": 59
+    },
+    {
+      "basePath": "/uae/ar/world/",
+      "siteId": 100
+    },
+    {
+      "basePath": "/br/pt-br/platinum/",
+      "siteId": 13
+    },
+    {
+      "basePath": "/my/en-gb/platinum-life/",
+      "siteId": 191
+    },
+    {
+      "basePath": "/mx/es/world-elite/",
+      "siteId": 63
+    },
+    {
+      "basePath": "/vn/en-gb/world/",
+      "siteId": 108
+    },
+    {
+      "basePath": "/ph/en-gb/world/",
+      "siteId": 74
+    },
+    {
+      "basePath": "/id/en-gb/platinum/",
+      "siteId": 49
+    },
+    {
+      "basePath": "/id/en-gb/world-elite/",
+      "siteId": 48
+    },
+    {
+      "basePath": "/hk/en-gb/world-elite/",
+      "siteId": 41
+    },
+    {
+      "basePath": "/uae/en-gb/world/",
+      "siteId": 102
+    },
+    {
+      "basePath": "/qa/ar/world-elite/",
+      "siteId": 75
+    },
+    {
+      "basePath": "/kr/ko/world-life/",
+      "siteId": 190
+    },
+    {
+      "basePath": "/pri/en-us/world/",
+      "siteId": 279
+    },
+    {
+      "basePath": "/us/en-us/world-elite/",
+      "siteId": 5
+    },
+    {
+      "basePath": "/eg/ar/world-elite/",
+      "siteId": 32
+    },
+    {
+      "basePath": "/sa/en-gb/world-elite/",
+      "siteId": 80
+    },
+    {
+      "basePath": "/sv/es/black/",
+      "siteId": 35
+    },
+    {
+      "basePath": "/pri/en-us/world-elite/",
+      "siteId": 280
+    },
+    {
+      "basePath": "/sv/es/platinum/",
+      "siteId": 34
+    },
+    {
+      "basePath": "/ph/en-gb/world-life/",
+      "siteId": 195
+    },
+    {
+      "basePath": "/au/en-gb/world-life/",
+      "siteId": 175
+    },
+    {
+      "basePath": "/vn/en-gb/world-elite/",
+      "siteId": 107
+    },
+    {
+      "basePath": "/tw/zh-hk/platinum-life/",
+      "siteId": 206
+    },
+    {
+      "basePath": "/cn/zh-cn/world/",
+      "siteId": 23
+    },
+    {
+      "basePath": "/jp/jp/platinum-life/",
+      "siteId": 187
+    },
+    {
+      "basePath": "/th/en-gb/world/",
+      "siteId": 98
+    },
+    {
+      "basePath": "/sg/en-gb/platinum/",
+      "siteId": 85
+    },
+    {
+      "basePath": "/nz/en-gb/platinum/",
+      "siteId": 64
+    }
+  ],
+  "tp-staging-rbc-enterprise.tenproduct.com": [
+    {
+      "basePath": "/ca/fr-ca/",
+      "siteId": 268
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 270
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 269
+    },
+    {
+      "basePath": "/ca/en-ca/",
+      "siteId": 258
+    }
+  ],
+  "tp-staging-barclaycard.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 257
+    }
+  ],
+  "tp-staging-tenemployee.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 246
+    }
+  ],
+  "tp-staging-scotia-evasion.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 173
+    }
+  ],
+  "tp-staging-rbc-infiniteprivate.tenproduct.com": [
+    {
+      "basePath": "/ca/en-ca/",
+      "siteId": 271
+    },
+    {
+      "basePath": "/ca/fr-ca/",
+      "siteId": 272
+    }
+  ],
+  "tp-staging-scotia-pursuits.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 172
+    }
+  ],
+  "tp-staging-cnb.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 278
+    }
+  ],
+  "tp-staging-carlauren.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 277
+    }
+  ],
+  "tp-staging-absa.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 288
+    }
+  ],
+  "tp-staging-bcg.tenproduct.com": [
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 285
+    },
+    {
+      "basePath": "/sg/zh-cn/",
+      "siteId": 284
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 281
+    },
+    {
+      "basePath": "/jp/jp/",
+      "siteId": 283
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 282
+    }
+  ],
+  "tp-staging-dnb.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 290
+    }
+  ],
+  "travel-test.mastercard.com": [
+    {
+      "basePath": "/my/en-gb/platinum/",
+      "siteId": 61
+    },
+    {
+      "basePath": "/vn/en-gb/world-life/",
+      "siteId": 204
+    },
+    {
+      "basePath": "/in/en-gb/platinum/",
+      "siteId": 46
+    },
+    {
+      "basePath": "/vn/en-gb/platinum-life/",
+      "siteId": 203
+    },
+    {
+      "basePath": "/th/en-gb/world-life/",
+      "siteId": 201
+    },
+    {
+      "basePath": "/jp/jp/platinum-life/",
+      "siteId": 187
+    },
+    {
+      "basePath": "/uae/en-gb/world-life/",
+      "siteId": 207
+    },
+    {
+      "basePath": "/tw/zh-hk/platinum-life/",
+      "siteId": 206
+    },
+    {
+      "basePath": "/th/en-gb/platinum-life/",
+      "siteId": 202
+    },
+    {
+      "basePath": "/tw/zh-hk/world-life/",
+      "siteId": 205
+    },
+    {
+      "basePath": "/uae/ar/world-life/",
+      "siteId": 208
+    },
+    {
+      "basePath": "/sg/zh-cn/platinum/",
+      "siteId": 87
+    },
+    {
+      "basePath": "/uk/en-gb/world/",
+      "siteId": 104
+    },
+    {
+      "basePath": "/uae/en-gb/world-elite/",
+      "siteId": 101
+    },
+    {
+      "basePath": "/uae/ar/world-elite/",
+      "siteId": 99
+    },
+    {
+      "basePath": "/za/en-gb/world/",
+      "siteId": 90
+    },
+    {
+      "basePath": "/sa/en-gb/world-elite/",
+      "siteId": 80
+    },
+    {
+      "basePath": "/sa/ar/world-elite/",
+      "siteId": 79
+    },
+    {
+      "basePath": "/qa/en-gb/world-elite/",
+      "siteId": 76
+    },
+    {
+      "basePath": "/tw/zh-hk/world-elite/",
+      "siteId": 93
+    },
+    {
+      "basePath": "/au/en-gb/platinum-life/",
+      "siteId": 174
+    },
+    {
+      "basePath": "/vn/en-gb/platinum/",
+      "siteId": 109
+    },
+    {
+      "basePath": "/th/en-gb/world-elite/",
+      "siteId": 96
+    },
+    {
+      "basePath": "/sg/en-gb/world/",
+      "siteId": 86
+    },
+    {
+      "basePath": "/sg/en-gb/world-elite/",
+      "siteId": 83
+    },
+    {
+      "basePath": "/ph/en-gb/platinum/",
+      "siteId": 73
+    },
+    {
+      "basePath": "/nz/en-gb/world-life/",
+      "siteId": 193
+    },
+    {
+      "basePath": "/kr/ko/world-life/",
+      "siteId": 190
+    },
+    {
+      "basePath": "/kr/ko/platinum-life/",
+      "siteId": 189
+    },
+    {
+      "basePath": "/sg/en-gb/platinum-life/",
+      "siteId": 198
+    },
+    {
+      "basePath": "/sg/en-gb/world-life/",
+      "siteId": 197
+    },
+    {
+      "basePath": "/ph/en-gb/platinum-life/",
+      "siteId": 196
+    },
+    {
+      "basePath": "/ph/en-gb/world-life/",
+      "siteId": 195
+    },
+    {
+      "basePath": "/nz/en-gb/platinum-life/",
+      "siteId": 194
+    },
+    {
+      "basePath": "/my/en-gb/world-life/",
+      "siteId": 192
+    },
+    {
+      "basePath": "/my/en-gb/platinum-life/",
+      "siteId": 191
+    },
+    {
+      "basePath": "/id/en-gb/world-life/",
+      "siteId": 185
+    },
+    {
+      "basePath": "/id/en-gb/platinum-life/",
+      "siteId": 184
+    },
+    {
+      "basePath": "/in/en-gb/world-life/",
+      "siteId": 183
+    },
+    {
+      "basePath": "/jp/jp/gold-life/",
+      "siteId": 188
+    },
+    {
+      "basePath": "/jp/jp/world-life/",
+      "siteId": 186
+    },
+    {
+      "basePath": "/sg/zh-cn/platinum-life/",
+      "siteId": 200
+    },
+    {
+      "basePath": "/sg/zh-cn/world-life/",
+      "siteId": 199
+    },
+    {
+      "basePath": "/uk/en-gb/world-elite/",
+      "siteId": 103
+    },
+    {
+      "basePath": "/uae/ar/world/",
+      "siteId": 100
+    },
+    {
+      "basePath": "/kr/ko/platinum/",
+      "siteId": 92
+    },
+    {
+      "basePath": "/za/en-gb/world-elite/",
+      "siteId": 89
+    },
+    {
+      "basePath": "/sa/ar/world/",
+      "siteId": 82
+    },
+    {
+      "basePath": "/qa/ar/world/",
+      "siteId": 78
+    },
+    {
+      "basePath": "/qa/ar/world-elite/",
+      "siteId": 75
+    },
+    {
+      "basePath": "/hk/zh-hk/world-life/",
+      "siteId": 179
+    },
+    {
+      "basePath": "/tw/zh-hk/platinum/",
+      "siteId": 95
+    },
+    {
+      "basePath": "/in/en-gb/platinum-life/",
+      "siteId": 182
+    },
+    {
+      "basePath": "/hk/en-gb/platinum-life/",
+      "siteId": 181
+    },
+    {
+      "basePath": "/hk/en-gb/world-life/",
+      "siteId": 180
+    },
+    {
+      "basePath": "/hk/en-gb/world/",
+      "siteId": 171
+    },
+    {
+      "basePath": "/vn/en-gb/world/",
+      "siteId": 108
+    },
+    {
+      "basePath": "/th/en-gb/world/",
+      "siteId": 98
+    },
+    {
+      "basePath": "/sg/en-gb/platinum/",
+      "siteId": 85
+    },
+    {
+      "basePath": "/ph/en-gb/world-elite/",
+      "siteId": 72
+    },
+    {
+      "basePath": "/nz/en-gb/platinum/",
+      "siteId": 64
+    },
+    {
+      "basePath": "/uae/en-gb/world/",
+      "siteId": 102
+    },
+    {
+      "basePath": "/kr/ko/world/",
+      "siteId": 91
+    },
+    {
+      "basePath": "/sa/en-gb/world/",
+      "siteId": 81
+    },
+    {
+      "basePath": "/qa/en-gb/world/",
+      "siteId": 77
+    },
+    {
+      "basePath": "/cn/zh-cn/platinum-life/",
+      "siteId": 177
+    },
+    {
+      "basePath": "/cn/zh-cn/world-life/",
+      "siteId": 176
+    },
+    {
+      "basePath": "/sg/zh-cn/world/",
+      "siteId": 88
+    },
+    {
+      "basePath": "/sg/zh-cn/world-elite/",
+      "siteId": 84
+    },
+    {
+      "basePath": "/au/en-gb/world-life/",
+      "siteId": 175
+    },
+    {
+      "basePath": "/in/en-gb/world-elite/",
+      "siteId": 170
+    },
+    {
+      "basePath": "/vn/en-gb/world-elite/",
+      "siteId": 107
+    },
+    {
+      "basePath": "/th/en-gb/platinum/",
+      "siteId": 97
+    },
+    {
+      "basePath": "/ph/en-gb/world/",
+      "siteId": 74
+    },
+    {
+      "basePath": "/nz/en-gb/world/",
+      "siteId": 65
+    },
+    {
+      "basePath": "/hk/zh-hk/platinum-life/",
+      "siteId": 178
+    },
+    {
+      "basePath": "/tw/zh-hk/world/",
+      "siteId": 94
+    },
+    {
+      "basePath": "/kw/ar/world/",
+      "siteId": 57
+    },
+    {
+      "basePath": "/kw/ar/world-elite/",
+      "siteId": 55
+    },
+    {
+      "basePath": "/my/en-gb/world/",
+      "siteId": 60
+    },
+    {
+      "basePath": "/my/en-gb/world-elite/",
+      "siteId": 59
+    },
+    {
+      "basePath": "/kw/en-gb/world/",
+      "siteId": 58
+    },
+    {
+      "basePath": "/kw/en-gb/world-elite/",
+      "siteId": 56
+    },
+    {
+      "basePath": "/id/en-gb/world/",
+      "siteId": 50
+    },
+    {
+      "basePath": "/id/en-gb/platinum/",
+      "siteId": 49
+    },
+    {
+      "basePath": "/id/en-gb/world-elite/",
+      "siteId": 48
+    },
+    {
+      "basePath": "/in/en-gb/world/",
+      "siteId": 47
+    },
+    {
+      "basePath": "/hk/en-gb/platinum/",
+      "siteId": 44
+    },
+    {
+      "basePath": "/hk/en-gb/world-elite/",
+      "siteId": 41
+    },
+    {
+      "basePath": "/jp/jp/world/",
+      "siteId": 54
+    },
+    {
+      "basePath": "/jp/jp/platinum/",
+      "siteId": 53
+    },
+    {
+      "basePath": "/jp/jp/gold/",
+      "siteId": 52
+    },
+    {
+      "basePath": "/jp/jp/world-elite/",
+      "siteId": 51
+    },
+    {
+      "basePath": "/hk/zh-hk/world/",
+      "siteId": 43
+    },
+    {
+      "basePath": "/hk/zh-hk/platinum/",
+      "siteId": 42
+    },
+    {
+      "basePath": "/cn/zh-cn/world/",
+      "siteId": 23
+    },
+    {
+      "basePath": "/cn/zh-cn/platinum/",
+      "siteId": 22
+    },
+    {
+      "basePath": "/cn/zh-cn/world-elite/",
+      "siteId": 21
+    },
+    {
+      "basePath": "/hk/zh-hk/world-elite/",
+      "siteId": 40
+    },
+    {
+      "basePath": "/eg/ar/world/",
+      "siteId": 33
+    },
+    {
+      "basePath": "/eg/ar/world-elite/",
+      "siteId": 32
+    },
+    {
+      "basePath": "/au/en-gb/world/",
+      "siteId": 12
+    },
+    {
+      "basePath": "/au/en-gb/platinum/",
+      "siteId": 11
+    },
+    {
+      "basePath": "/ca/fr-ca/world-elite/",
+      "siteId": 18
+    },
+    {
+      "basePath": "/ca/fr-ca/world/",
+      "siteId": 17
+    },
+    {
+      "basePath": "/ca/en-ca/world-elite/",
+      "siteId": 16
+    },
+    {
+      "basePath": "/ca/en-ca/world/",
+      "siteId": 15
+    },
+    {
+      "basePath": "/pri/es/platinum/",
+      "siteId": 281
+    },
+    {
+      "basePath": "/pri/es/black/",
+      "siteId": 280
+    }
+  ],
+  "bcg-uat.tenproduct.com": [
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 286
+    },
+    {
+      "basePath": "/sg/zh-cn/",
+      "siteId": 285
+    },
+    {
+      "basePath": "/uae/en-gb/",
+      "siteId": 303
+    },
+    {
+      "basePath": "/jp/jp/",
+      "siteId": 284
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 282
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 283
+    }
+  ],
+  "bcg.tenconcierge.com": [
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 286
+    },
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 285
+    },
+    {
+      "basePath": "/uae/en-gb/",
+      "siteId": 303
+    },
+    {
+      "basePath": "/jp/en-gb/",
+      "siteId": 284
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 282
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 283
+    }
+  ],
+  "www.tenplatform.com": [
+    {
+      "basePath": "/es-co/",
+      "siteId": 253
+    },
+    {
+      "basePath": "/ja/",
+      "siteId": 252
+    },
+    {
+      "basePath": "/de/",
+      "siteId": 255
+    },
+    {
+      "basePath": "/fr-fr/",
+      "siteId": 261
+    },
+    {
+      "basePath": "/ko/",
+      "siteId": 259
+    },
+    {
+      "basePath": "/en-gb/",
+      "siteId": 265
+    },
+    {
+      "basePath": "/pt-br/",
+      "siteId": 262
+    },
+    {
+      "basePath": "/fr-ca/",
+      "siteId": 264
+    },
+    {
+      "basePath": "/ru/",
+      "siteId": 263
+    },
+    {
+      "basePath": "/ar-ae/",
+      "siteId": 254
+    },
+    {
+      "basePath": "/zh-cn/",
+      "siteId": 250
+    },
+    {
+      "basePath": "/en-ca/",
+      "siteId": 267
+    },
+    {
+      "basePath": "/en-us/",
+      "siteId": 266
+    },
+    {
+      "basePath": "/zh-hk/",
+      "siteId": 251
+    },
+    {
+      "basePath": "/",
+      "siteId": 2
+    }
+  ],
+  "dnb-uat.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 290
+    }
+  ],
+  "www.tenemployeeloyalty.com": [
+    {
+      "basePath": "/",
+      "siteId": 246
+    }
+  ],
+  "www.rbcconcierge.com": [
+    {
+      "basePath": "/fr/",
+      "siteId": 272
+    },
+    {
+      "basePath": "/esc/",
+      "siteId": 258
+    },
+    {
+      "basePath": "/escfr/",
+      "siteId": 268
+    },
+    {
+      "basePath": "/uk/",
+      "siteId": 270
+    },
+    {
+      "basePath": "/us/",
+      "siteId": 269
+    }
+  ],
+  "tlbeminence.transamericalifebermuda.com": [
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 248
+    },
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 247
+    }
+  ],
+  "www.voyagemiles.com": [
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 249
+    },
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 274
+    },
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 273
+    }
+  ],
+  "concierge.coutts.com": [
+    {
+      "basePath": "/",
+      "siteId": 112
+    },
+    {
+      "basePath": "/en/",
+      "siteId": 112
+    }
+  ],
+  "absa-uat.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 288
+    }
+  ],
+  "tp-prod-dashboard.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 1
+    }
+  ],
+  "hsbc-jade-travel-uat.tenproduct.com": [
+    {
+      "basePath": "/uae/ar/",
+      "siteId": 277
+    },
+    {
+      "basePath": "/uae/en-gb/",
+      "siteId": 276
+    },
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 245
+    },
+    {
+      "basePath": "/hk/zh-cn/",
+      "siteId": 244
+    },
+    {
+      "basePath": "/fr/fr/",
+      "siteId": 243
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 242
+    }
+  ],
+  "www.barclaysinfiniteconcierge.com": [
+    {
+      "basePath": "/",
+      "siteId": 257
+    }
+  ],
+  "www.homepackconcierge.com": [
+    {
+      "basePath": "/",
+      "siteId": 256
+    }
+  ],
+  "www.jade.hsbc.com": [
+    {
+      "basePath": "/hk/zh-hk/",
+      "siteId": 152
+    },
+    {
+      "basePath": "/je/en-gb/",
+      "siteId": 168
+    },
+    {
+      "basePath": "/cn/en-gb/",
+      "siteId": 167
+    },
+    {
+      "basePath": "/cn/zh-cn/",
+      "siteId": 165
+    },
+    {
+      "basePath": "/ca/zh-cn/",
+      "siteId": 164
+    },
+    {
+      "basePath": "/ca/zh-hk/",
+      "siteId": 163
+    },
+    {
+      "basePath": "/ca/fr-ca/",
+      "siteId": 162
+    },
+    {
+      "basePath": "/ca/en-ca/",
+      "siteId": 161
+    },
+    {
+      "basePath": "/us/en-us/",
+      "siteId": 158
+    },
+    {
+      "basePath": "/fr/fr/",
+      "siteId": 157
+    },
+    {
+      "basePath": "/fr/en-gb/",
+      "siteId": 156
+    },
+    {
+      "basePath": "/sg/en-gb/",
+      "siteId": 155
+    },
+    {
+      "basePath": "/hk/zh-cn/",
+      "siteId": 153
+    },
+    {
+      "basePath": "/hk/en-gb/",
+      "siteId": 151
+    },
+    {
+      "basePath": "/uk/en-gb/",
+      "siteId": 111
+    },
+    {
+      "basePath": "/uae/en-gb/",
+      "siteId": 276
+    },
+    {
+      "basePath": "/uae/ar/",
+      "siteId": 277
+    }
+  ],
+  "carlauren-uat.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 278
+    }
+  ],
+  "cnb-uat.tenproduct.com": [
+    {
+      "basePath": "/",
+      "siteId": 279
+    }
+  ],
+  "www.evasion.scotiagestiondepatrimoine.com": [
+    {
+      "basePath": "/",
+      "siteId": 173
+    }
+  ],
+  "www.pursuits.scotiawealthmanagement.com": [
+    {
+      "basePath": "/",
+      "siteId": 172
+    }
+  ],
+  "visa-uat.tenproduct.com": [
+    {
+      "basePath": "/roa/fr/infinite/",
+      "siteId": 241
+    },
+    {
+      "basePath": "/roa/fr/signature/",
+      "siteId": 240
+    },
+    {
+      "basePath": "/roa/en-gb/signature/",
+      "siteId": 239
+    },
+    {
+      "basePath": "/roa/en-gb/infinite/",
+      "siteId": 238
+    },
+    {
+      "basePath": "/regmena/fr/infinite-signature/",
+      "siteId": 237
+    },
+    {
+      "basePath": "/regmena/ar/infinite-signature/",
+      "siteId": 236
+    },
+    {
+      "basePath": "/regmena/en-us/infinite-signature/",
+      "siteId": 235
+    },
+    {
+      "basePath": "/regmena/ar/infinite-signature-sharia/",
+      "siteId": 234
+    },
+    {
+      "basePath": "/regmena/en-us/infinite-signature-sharia/",
+      "siteId": 233
+    },
+    {
+      "basePath": "/sa/ar/infinite-signature/",
+      "siteId": 232
+    },
+    {
+      "basePath": "/sa/en-us/infinite-signature/",
+      "siteId": 231
+    },
+    {
+      "basePath": "/uae/ar/infinite-signature/",
+      "siteId": 230
+    },
+    {
+      "basePath": "/uae/en-us/infinite-signature/",
+      "siteId": 229
+    },
+    {
+      "basePath": "/sa/ar/infinite-signature-sharia/",
+      "siteId": 228
+    },
+    {
+      "basePath": "/sa/en-us/infinite-signature-sharia/",
+      "siteId": 227
+    },
+    {
+      "basePath": "/ke/en-gb/signature/",
+      "siteId": 226
+    },
+    {
+      "basePath": "/ke/en-gb/infinite/",
+      "siteId": 225
+    },
+    {
+      "basePath": "/za/en-gb/signature/",
+      "siteId": 224
+    },
+    {
+      "basePath": "/za/en-gb/infinite/",
+      "siteId": 223
+    },
+    {
+      "basePath": "/regcemea/en-us/signature/",
+      "siteId": 222
+    },
+    {
+      "basePath": "/regcemea/en-us/infinite/",
+      "siteId": 221
+    },
+    {
+      "basePath": "/reg/ru/signature/",
+      "siteId": 220
+    },
+    {
+      "basePath": "/reg/ru/infinite/",
+      "siteId": 219
+    },
+    {
+      "basePath": "/ru/en-us/infinite/",
+      "siteId": 218
+    },
+    {
+      "basePath": "/ru/en-us/signature/",
+      "siteId": 217
+    },
+    {
+      "basePath": "/ru/ru/signature/",
+      "siteId": 216
+    },
+    {
+      "basePath": "/ru/ru/infinite/",
+      "siteId": 215
+    }
+  ],
+  "www.visadigitalconcierge.com": [
+    {
+      "basePath": "/cl/es/signaturebusiness/",
+      "siteId": 150
+    },
+    {
+      "basePath": "/cl/es/infinite/",
+      "siteId": 149
+    },
+    {
+      "basePath": "/cl/es/signature/",
+      "siteId": 148
+    },
+    {
+      "basePath": "/cl/es/platinum/",
+      "siteId": 147
+    },
+    {
+      "basePath": "/pe/es/infinite/",
+      "siteId": 146
+    },
+    {
+      "basePath": "/pe/es/signature/",
+      "siteId": 145
+    },
+    {
+      "basePath": "/pe/es/platinum/",
+      "siteId": 144
+    },
+    {
+      "basePath": "/ar/es/corporatesignature/",
+      "siteId": 143
+    },
+    {
+      "basePath": "/ar/es/signature/",
+      "siteId": 142
+    },
+    {
+      "basePath": "/ar/es/platinum/",
+      "siteId": 141
+    },
+    {
+      "basePath": "/co/es/platinum/",
+      "siteId": 140
+    },
+    {
+      "basePath": "/co/es/infinite/",
+      "siteId": 139
+    },
+    {
+      "basePath": "/co/es/signature/",
+      "siteId": 138
+    },
+    {
+      "basePath": "/mx/es/infinitecorporate/",
+      "siteId": 137
+    },
+    {
+      "basePath": "/",
+      "siteId": 110
+    },
+    {
+      "basePath": "/mx/es/infinitebusiness/",
+      "siteId": 133
+    },
+    {
+      "basePath": "/mx/es/platinumbusiness/",
+      "siteId": 132
+    },
+    {
+      "basePath": "/mx/es/platinum/",
+      "siteId": 131
+    },
+    {
+      "basePath": "/mx/es/infinite/",
+      "siteId": 130
+    },
+    {
+      "basePath": "/br/pt-br/infinitecorporate/",
+      "siteId": 129
+    },
+    {
+      "basePath": "/br/pt-br/platinumbusiness/",
+      "siteId": 128
+    },
+    {
+      "basePath": "/br/pt-br/platinum/",
+      "siteId": 127
+    },
+    {
+      "basePath": "/br/pt-br/infinite/",
+      "siteId": 126
+    },
+    {
+      "basePath": "/reg/es/infinitebusiness/",
+      "siteId": 125
+    },
+    {
+      "basePath": "/reg/es/signaturebusiness/",
+      "siteId": 124
+    },
+    {
+      "basePath": "/reg/es/platinumbusiness/",
+      "siteId": 123
+    },
+    {
+      "basePath": "/reg/es/platinum/",
+      "siteId": 122
+    },
+    {
+      "basePath": "/reg/es/signature/",
+      "siteId": 121
+    },
+    {
+      "basePath": "/reg/en-us/infinitebusiness/",
+      "siteId": 120
+    },
+    {
+      "basePath": "/reg/en-us/signaturebusiness/",
+      "siteId": 119
+    },
+    {
+      "basePath": "/reg/en-us/platinumbusiness/",
+      "siteId": 118
+    },
+    {
+      "basePath": "/reg/en-us/infinite/",
+      "siteId": 117
+    },
+    {
+      "basePath": "/reg/es/infinite/",
+      "siteId": 116
+    },
+    {
+      "basePath": "/reg/en-us/platinum/",
+      "siteId": 115
+    },
+    {
+      "basePath": "/reg/en-us/signature/",
+      "siteId": 114
+    }
+  ],
+  "travel.mastercard.com": [
+    {
+      "basePath": "/ar/es/black/",
+      "siteId": 9
+    },
+    {
+      "basePath": "/br/pt-br/black/",
+      "siteId": 14
+    },
+    {
+      "basePath": "/br/pt-br/platinum/",
+      "siteId": 13
+    },
+    {
+      "basePath": "/cl/es/platinum/",
+      "siteId": 19
+    },
+    {
+      "basePath": "/ar/es/platinum/",
+      "siteId": 10
+    },
+    {
+      "basePath": "/co/es/platinum/",
+      "siteId": 24
+    },
+    {
+      "basePath": "/cl/es/black/",
+      "siteId": 20
+    },
+    {
+      "basePath": "/cr/es/platinum/",
+      "siteId": 26
+    },
+    {
+      "basePath": "/co/es/black/",
+      "siteId": 25
+    },
+    {
+      "basePath": "/gt/es/black/",
+      "siteId": 37
+    },
+    {
+      "basePath": "/gt/es/platinum/",
+      "siteId": 36
+    },
+    {
+      "basePath": "/ec/es/platinum/",
+      "siteId": 30
+    },
+    {
+      "basePath": "/dr/es/black/",
+      "siteId": 29
+    },
+    {
+      "basePath": "/sv/es/platinum/",
+      "siteId": 34
+    },
+    {
+      "basePath": "/ec/es/black/",
+      "siteId": 31
+    },
+    {
+      "basePath": "/sv/es/black/",
+      "siteId": 35
+    },
+    {
+      "basePath": "/dr/es/platinum/",
+      "siteId": 28
+    },
+    {
+      "basePath": "/cr/es/black/",
+      "siteId": 27
+    },
+    {
+      "basePath": "/pe/es/black/",
+      "siteId": 71
+    },
+    {
+      "basePath": "/ni/es/platinum/",
+      "siteId": 66
+    },
+    {
+      "basePath": "/mx/es/world-elite/",
+      "siteId": 63
+    },
+    {
+      "basePath": "/mx/es/platinum/",
+      "siteId": 62
+    },
+    {
+      "basePath": "/hn/es/black/",
+      "siteId": 39
+    },
+    {
+      "basePath": "/hn/es/platinum/",
+      "siteId": 38
+    },
+    {
+      "basePath": "/us/en-us/world/",
+      "siteId": 4
+    },
+    {
+      "basePath": "/pe/es/platinum/",
+      "siteId": 70
+    },
+    {
+      "basePath": "/pa/es/black/",
+      "siteId": 69
+    },
+    {
+      "basePath": "/pa/es/platinum/",
+      "siteId": 68
+    },
+    {
+      "basePath": "/ni/es/black/",
+      "siteId": 67
+    },
+    {
+      "basePath": "/us/en-us/world-elite/",
+      "siteId": 5
+    }
+  ],
+  "www.tenconcierge.com": [
+    {
+      "basePath": "/",
+      "siteId": 301
+    }
+  ],
+   "mastercardrak-uat.tenproduct.com": [
+    {
+      "basePath": "/ar-ae/",
+      "siteId": 321
+    },
+    {
+      "basePath": "/en-gb/",
+      "siteId": 320
+    },
+    {
+      "basePath": "/",
+      "siteId": 320
+    }
+  ],
+  "platinum.travel-lifestyle.ch": [
+    {
+      "basePath": "/de-ch/",
+      "siteId": 317
+    },
+    {
+      "basePath": "/fr-fr/",
+      "siteId": 316
+    },
+    {
+      "basePath": "/en-gb/",
+      "siteId": 315
+    },
+    {
+      "basePath": "/",
+      "siteId": 315
+    }
+  ]
+}

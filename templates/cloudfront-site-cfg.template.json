@@ -1,0 +1,1087 @@
+{
+	"CallerReference": "${CFDIST_CREATION_CALLER_REF}",
+	"Aliases": {
+		"Quantity": 1,
+		"Items": [
+			"${DOMAIN}"
+		]
+	},
+	"DefaultRootObject": "index.html",
+	"Origins": {
+		"Quantity": 11,
+		"Items": [
+			{
+				"Id": "ten-dining-search",
+				"DomainName": "ten-dining-search.ts-${ENV}.tensrv.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "https-only",
+					"OriginSslProtocols": {
+						"Quantity": 1,
+						"Items": [
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 60,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "ten-flight-search",
+				"DomainName": "ten-flight-search.ts-${ENV}.tensrv.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "https-only",
+					"OriginSslProtocols": {
+						"Quantity": 1,
+						"Items": [
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 60,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "ten-car-search",
+				"DomainName": "ten-car-search.ts-${ENV}.tensrv.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "https-only",
+					"OriginSslProtocols": {
+						"Quantity": 1,
+						"Items": [
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 60,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "ten-hotel-search",
+				"DomainName": "ten-hotel-search.ts-${ENV}.tensrv.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "https-only",
+					"OriginSslProtocols": {
+						"Quantity": 1,
+						"Items": [
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 60,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "backend",
+				"DomainName": "tp-euw1-${ENV}-web.${ENV}.tensrv.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 1,
+					"Items": [
+						{
+							"HeaderName": "X-Forwarded-Proto",
+							"HeaderValue": "https"
+						}
+					]
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "https-only",
+					"OriginSslProtocols": {
+						"Quantity": 1,
+						"Items": [
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 60,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "media",
+				"DomainName": "tenplatform-${ENV}-media.s3.amazonaws.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"S3OriginConfig": {
+					"OriginAccessIdentity": ""
+				}
+			},
+			{
+				"Id": "ten-auto-translate",
+				"DomainName": "ten-autotranslate.ts-${ENV}.tensrv.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "https-only",
+					"OriginSslProtocols": {
+						"Quantity": 1,
+						"Items": [
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 60,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "ten-elasticsearch-consumer",
+				"DomainName": "ten-elasticsearch-consumer.ts-${ENV}.tensrv.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "https-only",
+					"OriginSslProtocols": {
+						"Quantity": 1,
+						"Items": [
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 60,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "shared-static-content",
+				"DomainName": "ts-${ENV}-euw1-static-content.s3.amazonaws.com",
+				"OriginPath": "/shared",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"S3OriginConfig": {
+					"OriginAccessIdentity": "${S3_ORIGIN_ACCESS_ID}"
+				}
+			},
+			{
+				"Id": "frontend",
+				"DomainName": "${DOMAIN}.s3-website-eu-west-1.amazonaws.com",
+				"OriginPath": "",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"CustomOriginConfig": {
+					"HTTPPort": 80,
+					"HTTPSPort": 443,
+					"OriginProtocolPolicy": "http-only",
+					"OriginSslProtocols": {
+						"Quantity": 3,
+						"Items": [
+							"TLSv1",
+							"TLSv1.1",
+							"TLSv1.2"
+						]
+					},
+					"OriginReadTimeout": 30,
+					"OriginKeepaliveTimeout": 5
+				}
+			},
+			{
+				"Id": "private-static-content",
+				"DomainName": "ts-${ENV}-euw1-static-content.s3.amazonaws.com",
+				"OriginPath": "/${DOMAIN}",
+				"CustomHeaders": {
+					"Quantity": 0
+				},
+				"S3OriginConfig": {
+					"OriginAccessIdentity": "${S3_ORIGIN_ACCESS_ID}"
+				}
+			}
+		]
+	},
+	"OriginGroups": {
+		"Quantity": 0
+	},
+	"DefaultCacheBehavior": {
+		"TargetOriginId": "frontend",
+		"ForwardedValues": {
+			"QueryString": true,
+			"Cookies": {
+				"Forward": "none"
+			},
+			"Headers": {
+				"Quantity": 4,
+				"Items": [
+					"Origin",
+					"Access-Control-Request-Method",
+					"Access-Control-Request-Headers",
+					"X-Forwarded-Host"
+				]
+			},
+			"QueryStringCacheKeys": {
+				"Quantity": 0
+			}
+		},
+		"TrustedSigners": {
+			"Enabled": false,
+			"Quantity": 0
+		},
+		"ViewerProtocolPolicy": "redirect-to-https",
+		"MinTTL": 0,
+		"AllowedMethods": {
+			"Quantity": 3,
+			"Items": [
+				"HEAD",
+				"GET",
+				"OPTIONS"
+			],
+			"CachedMethods": {
+				"Quantity": 3,
+				"Items": [
+					"HEAD",
+					"GET",
+					"OPTIONS"
+				]
+			}
+		},
+		"SmoothStreaming": false,
+		"DefaultTTL": 86400,
+		"MaxTTL": 31536000,
+		"Compress": true,
+		"LambdaFunctionAssociations": {
+			"Quantity": 2,
+			"Items": [
+				{
+					"LambdaFunctionARN": "${LAMBDA_FN_ARN_MOVE_HOST}",
+					"EventType": "viewer-request",
+					"IncludeBody": false
+				},
+				{
+					"LambdaFunctionARN": "${LAMBDA_FN_ARN_SITE_REDUCTION}",
+					"EventType": "origin-response",
+					"IncludeBody": false
+				}
+			]
+		},
+		"FieldLevelEncryptionId": ""
+	},
+	"CacheBehaviors": {
+		"Quantity": 14,
+		"Items": [
+			{
+				"PathPattern": "/media/*",
+				"TargetOriginId": "media",
+				"ForwardedValues": {
+					"QueryString": false,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 3,
+						"Items": [
+							"Origin",
+							"Access-Control-Request-Method",
+							"Access-Control-Request-Headers"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 3,
+						"Items": [
+							"HEAD",
+							"GET",
+							"OPTIONS"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 86400,
+				"MaxTTL": 31536000,
+				"Compress": true,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/static-content/shared/*",
+				"TargetOriginId": "shared-static-content",
+				"ForwardedValues": {
+					"QueryString": false,
+					"Cookies": {
+						"Forward": "whitelist",
+						"WhitelistedNames": {
+							"Quantity": 1,
+							"Items": [
+								"sessionid"
+							]
+						}
+					},
+					"Headers": {
+						"Quantity": 3,
+						"Items": [
+							"Origin",
+							"Access-Control-Request-Method",
+							"Access-Control-Request-Headers"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 3,
+					"Items": [
+						"HEAD",
+						"GET",
+						"OPTIONS"
+					],
+					"CachedMethods": {
+						"Quantity": 3,
+						"Items": [
+							"HEAD",
+							"GET",
+							"OPTIONS"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 86400,
+				"MaxTTL": 31536000,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/static-content/*",
+				"TargetOriginId": "private-static-content",
+				"ForwardedValues": {
+					"QueryString": false,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 3,
+						"Items": [
+							"Origin",
+							"Access-Control-Request-Method",
+							"Access-Control-Request-Headers"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 3,
+					"Items": [
+						"HEAD",
+						"GET",
+						"OPTIONS"
+					],
+					"CachedMethods": {
+						"Quantity": 3,
+						"Items": [
+							"HEAD",
+							"GET",
+							"OPTIONS"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 86400,
+				"MaxTTL": 31536000,
+				"Compress": true,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/static/*",
+				"TargetOriginId": "media",
+				"ForwardedValues": {
+					"QueryString": false,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 3,
+						"Items": [
+							"Origin",
+							"Access-Control-Request-Method",
+							"Access-Control-Request-Headers"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 3,
+					"Items": [
+						"HEAD",
+						"GET",
+						"OPTIONS"
+					],
+					"CachedMethods": {
+						"Quantity": 3,
+						"Items": [
+							"HEAD",
+							"GET",
+							"OPTIONS"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 86400,
+				"MaxTTL": 31536000,
+				"Compress": true,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/v1/*",
+				"TargetOriginId": "backend",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "whitelist",
+						"WhitelistedNames": {
+							"Quantity": 3,
+							"Items": [
+								"csrftoken",
+								"sessionid",
+								"selectedSite"
+							]
+						}
+					},
+					"Headers": {
+						"Quantity": 6,
+						"Items": [
+							"Authorization",
+							"Accept-Charset",
+							"Accept",
+							"Referer",
+							"Host",
+							"Site-Base-Path"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/v2/*",
+				"TargetOriginId": "backend",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "whitelist",
+						"WhitelistedNames": {
+							"Quantity": 3,
+							"Items": [
+								"csrftoken",
+								"sessionid",
+								"selectedSite"
+							]
+						}
+					},
+					"Headers": {
+						"Quantity": 6,
+						"Items": [
+							"Authorization",
+							"Accept-Charset",
+							"Accept",
+							"Referer",
+							"Host",
+							"Site-Base-Path"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/api/autocomplete/*",
+				"TargetOriginId": "ten-elasticsearch-consumer",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 3,
+					"Items": [
+						"HEAD",
+						"GET",
+						"OPTIONS"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/api/search/hotels/*",
+				"TargetOriginId": "ten-hotel-search",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/api/search/flights/*",
+				"TargetOriginId": "ten-flight-search",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/api/translate/*",
+				"TargetOriginId": "ten-auto-translate",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/translate/*",
+				"TargetOriginId": "ten-auto-translate",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/api/search/cars/*",
+				"TargetOriginId": "ten-car-search",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/api/search/dining/landing/*",
+				"TargetOriginId": "ten-elasticsearch-consumer",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			},
+			{
+				"PathPattern": "/api/search/dining/*",
+				"TargetOriginId": "ten-dining-search",
+				"ForwardedValues": {
+					"QueryString": true,
+					"Cookies": {
+						"Forward": "none"
+					},
+					"Headers": {
+						"Quantity": 2,
+						"Items": [
+							"Authorization",
+							"Accept-Language"
+						]
+					},
+					"QueryStringCacheKeys": {
+						"Quantity": 0
+					}
+				},
+				"TrustedSigners": {
+					"Enabled": false,
+					"Quantity": 0
+				},
+				"ViewerProtocolPolicy": "redirect-to-https",
+				"MinTTL": 0,
+				"AllowedMethods": {
+					"Quantity": 7,
+					"Items": [
+						"HEAD",
+						"DELETE",
+						"POST",
+						"GET",
+						"OPTIONS",
+						"PUT",
+						"PATCH"
+					],
+					"CachedMethods": {
+						"Quantity": 2,
+						"Items": [
+							"HEAD",
+							"GET"
+						]
+					}
+				},
+				"SmoothStreaming": false,
+				"DefaultTTL": 0,
+				"MaxTTL": 0,
+				"Compress": false,
+				"LambdaFunctionAssociations": {
+					"Quantity": 0
+				},
+				"FieldLevelEncryptionId": ""
+			}
+		]
+	},
+	"CustomErrorResponses": {
+		"Quantity": 0
+	},
+	"Comment": "${DOMAIN}",
+	"Logging": {
+		"Enabled": true,
+		"IncludeCookies": false,
+		"Bucket": "tenplatform-euw1-${ENV}-logs.s3.amazonaws.com",
+		"Prefix": "cf-logs/${DOMAIN_HYPHENATED}"
+	},
+	"PriceClass": "PriceClass_All",
+	"Enabled": true,
+	"ViewerCertificate": {
+		"ACMCertificateArn": "${CERT_ARN}",
+		"SSLSupportMethod": "sni-only",
+		"MinimumProtocolVersion": "TLSv1.2_2018",
+		"Certificate": "${CERT_ARN}",
+		"CertificateSource": "acm"
+	},
+	"Restrictions": {
+		"GeoRestriction": {
+			"RestrictionType": "none",
+			"Quantity": 0
+		}
+	},
+	"WebACLId": "${WEB_ACL_ID}",
+	"HttpVersion": "http2",
+	"IsIPV6Enabled": false
+}
