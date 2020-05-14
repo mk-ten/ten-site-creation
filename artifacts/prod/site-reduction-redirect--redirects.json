@@ -29,6 +29,16 @@
       "siteId": 328
     }
   ],
+  "westpac.tenconcierge.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 328
+    },
+    {
+      "basePath": "/",
+      "siteId": 328
+    }
+  ],
   "stgeorge-uat.tenproduct.com": [
     {
       "basePath": "/en-gb/",
@@ -37,6 +47,56 @@
     {
       "basePath": "/",
       "siteId": 329
+    }
+  ],
+  "stgeorge.tenconcierge.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 329
+    },
+    {
+      "basePath": "/",
+      "siteId": 329
+    }
+  ],
+  "bankofmelbourne-uat.tenproduct.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 331
+    },
+    {
+      "basePath": "/",
+      "siteId": 331
+    }
+  ],
+  "bankofmelbourne.tenconcierge.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 331
+    },
+    {
+      "basePath": "/",
+      "siteId": 331
+    }
+  ],
+  "banksa-uat.tenproduct.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 330
+    },
+    {
+      "basePath": "/",
+      "siteId": 330
+    }
+  ],
+  "banksa.tenconcierge.com": [
+    {
+      "basePath": "/en-gb/",
+      "siteId": 330
+    },
+    {
+      "basePath": "/",
+      "siteId": 330
     }
   ],
   "tp-qa-absa.tenproduct.com": [
