@@ -1,0 +1,14 @@
+{
+    "Comment": "${DOMAIN}",
+    "Changes": [
+        {
+            "Action": "CREATE",
+            "ResourceRecordSet": {
+                "Name": "${DOMAIN}",
+                "Type": "CNAME",
+                "TTL": 300,
+                "ResourceRecords": [{ "Value": "${CDN_FQDN}."}]
+            }
+        }
+    ]
+}
