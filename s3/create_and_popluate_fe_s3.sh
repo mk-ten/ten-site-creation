@@ -31,5 +31,11 @@ echo
 echo "Setting Bucket Policy  ..."
 aws s3api put-bucket-policy  --bucket ${DOMAIN}  --policy file://${POLICY_CFG}  --profile ${ENV}
 
+
+echo
+echo "Copying Site to Bucket  ..."
+aws s3 sync  ${SRC_S3_BUCKET}  ${DOMAIN}  --no-progress  --profile ${ENV}
+
+
 echo
 echo DONE
