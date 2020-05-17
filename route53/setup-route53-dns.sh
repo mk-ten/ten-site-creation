@@ -3,12 +3,11 @@
 
 DOMAIN=$1
 ENV=$2
-CDN_AWS_ACCOUNT=$3
-CDN_HOSTED_ZONE_ID=$4
-SITE_DOMAIN_AWS_ACCOUNT=$5
-SITE_HOSTED_ZONE_ID=$6
+DNS_AWS_PROFILE=$3
+SITE_HOSTED_ZONE_ID=$4
+CDN_HOSTED_ZONE_ID=$5
+CLOUDFRONT_HOSTED_ZONE_ID=$6
 CLOUDFRONT_DOMAIN=$7
-CLOUDFRONT_HOSTED_ZONE_ID=$8
 
 CDN_CFG_TEMPLATE="templates/route53-cdn-cf-alias.template.json"
 CDN_CFG_FILE="scratch/route53-cdn-cf-alias.json"
@@ -48,7 +47,7 @@ sed -i  "s/\${CDN_FQDN}/${CDN_FQDN}/g"  ${SITE_CFG_FILE}
 
 echo
 echo "Creating Site Domain CNAME to CDN Domain  ..."
-aws route53  change-resource-record-sets  --hosted-zone-id ${SITE_HOSTED_ZONE_ID}  --change-batch file://${SITE_CFG_FILE}  --profile ${ENV}
+aws route53  change-resource-record-sets  --hosted-zone-id ${SITE_HOSTED_ZONE_ID}  --change-batch file://${SITE_CFG_FILE}  --profile ${DNS_AWS_PROFILE}
 
 echo
 echo DONE
