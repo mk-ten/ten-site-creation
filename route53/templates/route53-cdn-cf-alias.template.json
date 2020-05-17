@@ -6,7 +6,6 @@
             "ResourceRecordSet": {
                 "Name": "${CDN_FQDN}",
                 "Type": "A",
-                "TTL": 300,
                 "AliasTarget": {
                     "HostedZoneId": "${CLOUDFRONT_HOSTED_ZONE_ID}",
                     "DNSName": "${CLOUDFRONT_DOMAIN}.",

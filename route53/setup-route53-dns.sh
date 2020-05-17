@@ -46,8 +46,13 @@ sed -i  "s/\${DOMAIN}/${DOMAIN}/g"  ${SITE_CFG_FILE}
 sed -i  "s/\${CDN_FQDN}/${CDN_FQDN}/g"  ${SITE_CFG_FILE}
 
 echo
-echo "Creating Site Domain CNAME to CDN Domain  ..."
-aws route53  change-resource-record-sets  --hosted-zone-id ${SITE_HOSTED_ZONE_ID}  --change-batch file://${SITE_CFG_FILE}  --profile ${DNS_AWS_PROFILE}
+if  [[ "${DOMAIN}" == *tenproduct.com ]]
+then
+	echo "Creating Site Domain CNAME to CDN Domain  ..."
+	aws route53  change-resource-record-sets  --hosted-zone-id ${SITE_HOSTED_ZONE_ID}  --change-batch file://${SITE_CFG_FILE}  --profile ${DNS_AWS_PROFILE}
+else
+	echo "Skipping DNS creation for ${DOMAIN}, as this script can create Main DNS entries only for sites ending with tenproduct.com"
+fi
 
 echo
 echo DONE
